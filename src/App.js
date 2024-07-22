@@ -1,13 +1,9 @@
 import './App.css';
-import MyForm from "./components/MyForm";
-import MyForm1 from "./components/MyForm1";
-import Submit from "./components/Submit";
+import TextArea from "./components/input/TextArea";
 
 function App() {
     return (<div>
-        <MyForm/>
-        <MyForm1/>
-        <Submit/>
+        <TextArea/>
     </div>);
 }
 

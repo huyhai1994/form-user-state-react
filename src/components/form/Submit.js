@@ -2,7 +2,9 @@ import React, {useState} from "react";
 
 function Submit() {
     const [username, setUsername] = useState("");
-
+    /*TODO: Bạn có thể kiểm soát hành động gửi bằng cách
+       thêm trình xử lý sự kiện trong thuộc tính onSubmit:
+    */
     return (<form onSubmit={(event) => {
         event.preventDefault();
         alert("you are submitting " + username);
